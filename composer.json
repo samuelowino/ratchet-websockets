@@ -1,0 +1,13 @@
+{
+    "name": "owino/ratchet-messaging",
+    "description": "Websockets Bidirectional communication with PHP Ratchet",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "require": {
+        "monolog/monolog": "1.0.*",
+        "cboden/ratchet": "^0.4.3"
+    }
+}
